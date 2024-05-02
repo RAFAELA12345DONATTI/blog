@@ -1,12 +1,35 @@
-#titulo1{
-    font-size: 2rem;
-    color: rgb(107, 69, 196) ;    
-    text-align: center;
-
+.titulo{
+  color: darkorange;
+  font-size: 3rem;
+  text-align: center;
 }
 
-.titulo{
-    font-size: 3rem;
-    color:black;
-    text-align: center;
+#titulo1{
+  color: black;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.ingredientes{
+  color: black;
+  font-size: 3rem;
+  text-align: center;
+}
+
+#ingredientesmassaecobertura{
+  color: black;
+  font-size: 1rem;
+  text-align: center;
+}
+
+#modo-de-preparo{
+  color: black;
+  font-size: 1rem;
+  text-align: center;
+}
+
+#fim{
+  color: darkorange;
+  font-size: 3rem;
+  text-align: center;
 }
