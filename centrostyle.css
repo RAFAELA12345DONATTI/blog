@@ -1,0 +1,37 @@
+header{
+    background-color: #dc6378;
+    height: 135px;
+  }
+
+  .juntarLogo{
+    width: 45%;
+    margin-left: 24%;
+  }
+
+  .linkbolo{
+    text-align: center;
+  }
+
+  .linkpanquecas{
+    text-align: center;
+  }
+  
+  #batedeira{
+    height: 135px;
+    float: left;
+  }
+
+  #titulo1{
+    color: #101652;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1%;
+  }
+
+  .titulo{
+    color: #101652;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+  }
+  

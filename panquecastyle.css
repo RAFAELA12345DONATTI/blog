@@ -1,0 +1,53 @@
+header{
+  background-color: #309292;
+  height: 135px;
+}
+
+.juntarLogo{
+  width: 45%;
+  margin-left: 24%;
+}
+
+.titulo{
+  color: #ede3b4;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+}
+
+.imagem{
+text-align: center;
+}
+
+#ingredientesmassaecobertura{
+  color: black;
+  font-size: 1rem;
+  text-align: center;
+  margin-left: 40%;
+  margin-right: 43%;
+}
+
+
+#modo-de-preparo{
+  color: black;
+  font-size: 1rem;
+  text-align:center;
+}
+
+#fim{
+  color: #ede3b4;
+  font-size: 3rem;
+  text-align: center;
+}
+
+#titulo1{
+  color: #ede3b4;
+  font-size: 2rem;
+  text-align: center;
+  margin: 1%;
+}
+
+#batedeira{
+  height: 135px;
+  float: left;
+}
