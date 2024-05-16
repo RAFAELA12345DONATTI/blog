@@ -1,5 +1,5 @@
 header{
-    background-color: #dc6378;
+    background-color: #03AED2;
     height: 135px;
   }
 
@@ -21,22 +21,21 @@ header{
     float: left;
   }
 
-  #titulo1{
-    color: #101652;
-    font-size: 2rem;
-    text-align: center;
-    margin: 1%;
-  }
-
   .titulo{
-    color: #101652;
+    color: #EEF7FF;
     font-size: 3rem;
     text-align: center;
     margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
   .darkorange{
     background-color: darkorange;
     color: darkorange;
+  }
+
+  .flex-container{
+    display:flex;
+    flex-direction: row;
   }
   
