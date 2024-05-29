@@ -1,11 +1,10 @@
-header{
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
     background-color: #03AED2;
     height: 135px;
-  }
-
-  .juntarLogo{
-    width: 45%;
-    margin-left: 24%;
   }
 
   .linkbolo{
