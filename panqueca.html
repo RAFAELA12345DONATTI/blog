@@ -3,8 +3,9 @@
 
 <head>
 	<title>Blog de Receitas!</title>
-	<link rel="stylesheet" type="text/css" href="panquecastyle.css">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="panquecastyle.css">
+
 </head>
 
 <body>
@@ -24,24 +25,25 @@
 	<div class="imagem">
 		<img src="panqueca.jpg">
 	</div>
-	</p>
 	<div id="ingredientesmassaecobertura">
+		<input type="number" id="quantidade">
+		<button class="botao btn" onclick="ingredientespanqueca()">Ok</button>
 		<h3>INGREDIENTES</h3>
 		<h4>Massa:</h4>
 		<ul>
-			<li>1 ¼ de xícara (chá) de farinha de trigo</li>
-			<li>1 colher (chá) de fermento em pó</li>
-			<li>1 pitada de sal</li>
-			<li>1 colher (sopa) de açúcar</li>
-			<li>2 ovos</li>
-			<li>1 xícara de leite</li>
-			<li>2 colheres (sopa) de margarina derretida</li>
+			<li id="farinha">1 ¼ de xícara (chá) de farinha de trigo</li>
+			<li id="fermento">1 colher (chá) de fermento em pó</li>
+			<li id="sal">1 pitada de sal</li>
+			<li id="açucar">1 colher (sopa) de açúcar</li>
+			<li id="ovos">2 ovos</li>
+			<li id="leite">1 xícara de leite</li>
+			<li id="margarina">2 colheres (sopa) de margarina derretida</li>
 
 		<h4>Cobertura:</h4>
-			<li>Uma caixa de leite condensado</li>
-			<li>5 colheres(sopa) de leite em pó</li>
-			<li>1 colher(sopa) de manteiga</li>
-			<li>1 caixa(250g) de creme de leite</li>
+			<li id="leitecondensado">1 caixa de leite condensado</li>
+			<li id="leiteempo">5 colheres(sopa) de leite em pó</li>
+			<li id="manteiga">1 colher(sopa) de manteiga</li>
+			<li id="cremedeleite">1 caixa(250g) de creme de leite</li>
 	</div>
 
 	<div id="modo-de-preparo">
@@ -66,7 +68,7 @@
 			É isso, veja várias outras receitas clicando na logo de início, até mais!
 		</h5>
 	</div>
-
+	<script src="panqueca.js"></script>
 </body>
 
 </html>

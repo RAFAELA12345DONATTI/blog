@@ -3,8 +3,8 @@
 
 <head>
     <title>Blog de Receitas!</title>
-    <link rel="stylesheet" type="text/css" href="cookiestyle.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="cookiestyle.css">
 </head>
 
 <body>
@@ -22,26 +22,28 @@
     </div>
     </p>
     <div id="ingredientesmassaecobertura">
+        <input type="number" id="ingredientes">
+		<button class="botao btn" onclick="ingredientescookies()">Ok</button>
         <h3>INGREDIENTES</h3>
         <h4>Massa:</h4>
         <ul>
-            <li>150 g de manteiga de sem sal</li>
-            <li>100 g de açúcar</li>
-            <li>100 g de açúcar mascavo</li>
-            <li>1 ovo</li>
-            <li>1 colher (sopa) de Chocolate em Pó 50% </li>
-            <li>1 pitada de sal</li>
-            <li>1 colher (chá) de essência de baunilha</li>
-            <li>185 g de farinha de trigo</li>
-            <li>1 colher (sopa) de fermento químico em pó</li>
-            <li>100 g de chocolate ao leite</li>
-            <li>Corante alimentício em gel vermelho</li>
+            <li id="manteigasemsal">150 g de manteiga de sem sal</li>
+            <li id="açucar">100 g de açúcar</li>
+            <li id="mascavo">100 g de açúcar mascavo</li>
+            <li id="ovo">1 ovo</li>
+            <li id="chocolatepo">1 colher (sopa) de Chocolate em Pó 50% </li>
+            <li id="sal">1 pitada de sal</li>
+            <li id="baunilha">1 colher (chá) de essência de baunilha</li>
+            <li id="farinha">185 g de farinha de trigo</li>
+            <li id="fermento">1 colher (sopa) de fermento químico em pó</li>
+            <li id="chocolate">100 g de chocolate ao leite</li>
+            <li id="corante">Corante alimentício em gel vermelho</li>
 
             <h4>Recheio:</h4>
-            <li>Uma caixa de leite condensado</li>
-            <li>6 colheres(sopa) de leite em pó</li>
-            <li>1 colher(sopa) de manteiga</li>
-            <li>meia caixa(125g) de creme de leite</li>
+            <li id="leitecondensado">1 caixa de leite condensado</li>
+            <li id="leiteempo">6 colheres(sopa) de leite em pó</li>
+            <li id="manteiga">1 colher(sopa) de manteiga</li>
+            <li id="cremedeleite">125g de creme de leite</li>
     </div>
 
     <div id="modo-de-preparo">
@@ -81,7 +83,7 @@
             É isso, veja várias outras receitas clicando na logo de início, até mais!
         </h5>
     </div>
-
+    <script src="cookies.js"></script>
 </body>
 
 </html>
